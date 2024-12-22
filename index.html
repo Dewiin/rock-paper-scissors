@@ -1,11 +1,32 @@
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Page Title</title>
-  </head>
-  <body>
-
-
-    <script src="rps.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel="stylesheet" href="index.css">
+  <script src="rps.js" defer></script>
+</head>
+<body>
+  <h1 class="title">Rock Paper Scissors</h1>
+  <div class="scores">
+    <div class="human">
+      <p>YOU</p>
+    </div>
+    <h2>vs.</h2>
+    <div class="bot">
+      <p>BOT</p>
+    </div>
+  </div>
+  <div class="content">
+    <h3>Choose an option</h3>
+    <div class="options">
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissor">Scissor</button>
+    </div>
+    <p class="result"></p>
+  </div>
+</body>
 </html>

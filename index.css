@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: "Audiowide", sans-serifs;
+    margin: 50px 0px;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 5rem;
+}
+
+.content h3 {
+    text-align: center;
+}
+
+.content .options {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+
+.content button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
